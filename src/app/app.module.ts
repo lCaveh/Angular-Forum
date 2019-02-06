@@ -23,7 +23,9 @@ import { environment } from '../environments/environment';
 
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
-
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AllTopicsComponent } from './components/all-topics/all-topics.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,10 @@ import { AuthService } from "./shared/services/auth.service";
     SignUpComponent,
     DashboardComponent,
     ForgotPasswordComponent,
-    VerifyEmailComponent
+    VerifyEmailComponent,
+    NavBarComponent,
+    HomeComponent,
+    AllTopicsComponent
   ],
   imports: [
     BrowserModule,
